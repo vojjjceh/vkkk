@@ -1,0 +1,12 @@
+html{
+	--spacing: 50px; 
+}
+.image{
+	width: calc(100% / 3);
+	transform: rotate(calc(90deg*4 - 90deg));
+	padding: calc(var(--spacing)*2);
+
+}
+.text{
+	font-size: calc(5vw + 20px);	
+}
